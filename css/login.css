@@ -1,0 +1,100 @@
+/*
+body{
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom right,white, black);
+  /*background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-light-blue-pet-dog-poster-background-image_197821.jpg");
+  background-repeat:no-repeat ;
+  background-size: 500%;
+  color: white;
+
+  /*TEXT SHADOW
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  -webkit-text-stroke: 0.01px;
+  -webkit-text-stroke-color: black;
+  
+}*/
+
+/*
+*{
+  FONTS STYLE: https://www.w3.org/Style/Examples/007/fonts.en.html
+}
+*/
+body{
+  background-image: url("../loginimg.jpg");
+  background-size: 100% 67%;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+}
+
+.fu{
+  margin: 40%;
+  padding: 80px 0px 80px 0px;
+  border-radius: 10px;
+  background-color: rgba(116, 210, 210, 0.781);
+  border: solid 1px black;
+  margin-top: 7cm;
+  text-align: center;
+  box-shadow: 1px 5px 25px black;
+}
+#btn1{
+  color: #ffff;
+  padding: 3px 30px 3px 30px;
+  border-radius: 10px;
+  /*background-image: linear-gradient(to bottom right,rgb(140, 255, 209) 30%, rgb(140, 224, 255));*/
+  background-color: red;
+
+}
+#btn1:hover{
+  background-color: red;
+  animation: btnanimation 5s infinite 0.5s linear alternate;
+  
+}
+
+@keyframes btnanimation {
+  0%{background-color: red;}
+  25%{background-color: blue;}
+  50%{background-color: green;}
+  75%{background-color: palegoldenrod;}
+  100%{background-color: red;}
+
+}
+#pswd{
+  margin-left: 3.1mm;
+}
+.signin{
+  margin-left:0.5cm;
+}
+
+input[text]{
+  font-family: 'Times New Roman';
+}
+#inv{
+  color: red;
+}
+/**
+**link specifications
+**/
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}

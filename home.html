@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home Page</title>
+	<style>
+		/*body{
+			background-image:url("homeimg.webp");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-size: 131%;
+		}*/
+		html{
+			height: 105%;
+		}
+		body{ /*THE NEW POSITIONING TECHNIQUE ##TELL S3ADA ABOUT##*/
+			background-image:url("homeimg.webp");
+			background-size: cover;
+			background-repeat: no-repeat;
+			overflow: hidden;
+		}
+		/*margin depends on the parent box and moves on it
+		**position moves generally
+		*/
+		#mainbtn{
+			text-align: right;
+			position: relative;/* the positioning for the buttons instead of using margins*/
+			top: -55px;
+			right:50px;
+		}
+		button{
+			width: 100px;
+			height: 40px;
+			font-size: medium;
+			background-color: rgb(7, 139, 168);
+			color: white;
+			border-radius: 10px;
+			position: static;
+			opacity: 0.6;
+			transition: 200ms;
+		}
+		button:hover{
+			/* background-color: moccasin; */
+			opacity: 1;
+		}
+		.topbar{
+			background-color: rgb(57, 57, 57);
+			border: solid 1px black;
+			height: 80px;
+			width: 105vw;
+			margin-left: -1%;
+			margin-top: -1%;
+		}
+	</style>
+</head>
+<body>
+	<div class="topbar"></div>
+	<form method="get">
+	<div id="mainbtn">
+		<button class="btn" formaction="adminlogin.php" name="adminlogin">Admin login</button>
+		<button class="btn" formaction="userlogin.php" name="userlogin">User login</button>
+    </div>
+</form>
+</body>
+</html>
