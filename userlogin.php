@@ -34,7 +34,7 @@ if(count($_POST)>0)
 <body><!--background-size= width height-->
     <form class="fu" method="post">
         <?php if($invLD) echo "<span id='inv'>*Invalid login data</span><br>"; ?>
-        <b>User Name: </b><input type="text" name="username" /> <br /><br/>
+        <b>User Name and ID: </b><input type="text" name="username" /> <br /><br/>
         <b>Password: </b><input id="pswd" type="password" name="password" /> <br /><br/>
         <button type="submit" id="btn1">Login</button>
         <div class="signin">

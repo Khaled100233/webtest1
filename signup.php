@@ -82,7 +82,7 @@
 	
     <form class="fu" method="post">
 		<div id="frmbrdr"> 
-        <b>User Name:</b><input type="text" name="username" /> <br/><br/>
+        <b>ID:</b><input type="text" name="username" /> <br/><br/>
         <b>Password: </b><input id="pswd" type="password" name="password" /> <br/><br/>
 		<b>Email: </b><input type="email" name="email" /><br/><br/>
 		<b>Address: </b><input type="text" name="address" /><br/><br/>
